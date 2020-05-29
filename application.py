@@ -5,7 +5,7 @@ from flask_session import Session
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 
-app = Flask(__name__)
+app = Flask(cs50-project1-yp)
 
 # Check for environment variable
 if not os.getenv("postgres://emllsnhszfqing:76a579bd999dd5a058a4450f7aef9054688897f4db95917b9d57a1d1bfa7638f@ec2-18-210-214-86.compute-1.amazonaws.com:5432/dfht55lhd7uuvh"):
